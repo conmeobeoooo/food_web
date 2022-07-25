@@ -1,0 +1,29 @@
+:root{
+    --primary-color: #fe6500;
+    --white-color: #fff;
+    --text-color: #333;
+    --text-color: #fff;
+    --green-color: #008000;
+}
+
+*{
+    box-sizing: initial;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+    font-size: 62%;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1770px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
