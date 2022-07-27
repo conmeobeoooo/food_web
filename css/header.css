@@ -1,6 +1,7 @@
 .header{
     background-color: #333;
     height: 32px;
+    margin: 0 0 50px;
     position: relative;
 }
 
@@ -12,7 +13,7 @@
     display: flex;
 }
 
-.current{
+.topbar-current{
     width: 100%;
 }
 
@@ -42,8 +43,20 @@ li:first-child{
 
 
 .header-toolbar {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     background-color: #fff;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    /* bottom: 0; */
+    left: 0;
+    z-index: 20;
+}
+
+.fixed{
+    top: 0;
+    position: fixed;
+    bottom: inherit;
 }
 
 .container-topbar {
@@ -74,6 +87,11 @@ li:first-child{
     line-height: 30px;
     height: 30px;
     margin-right: 5px;
+}
+
+.btn-select__city:hover{
+    background: #eee;
+    color: #000;
 }
 
 .btn-select__content{
@@ -108,6 +126,12 @@ li:first-child{
     height: 30px;
     line-height: 30px;
 }
+
+.btn-select__category:hover{
+    background: #eee;
+    color: #000;
+}
+
 
 .btn-category__content{
     display: flex;
@@ -217,6 +241,11 @@ li:first-child{
     border-radius: 2px;
 }
 
+.menu-header:hover{
+    background: #eee;
+    color: #000;
+}
+
 .menu-icon {
     color: #333;
     font-size: 14px;
@@ -237,6 +266,11 @@ li:first-child{
     margin-top: 12px;
     margin-left: 10px;
     border-radius: 2px;
+}
+
+.header-apps:hover{
+    background: #eee;
+    color: #000;
 }
 
 .header-apps a{
@@ -313,6 +347,11 @@ li:first-child{
     background: #eee url(../img/ico_not.png) 3px -40px no-repeat;
 }
 
+.notification-content:hover{
+    background: #ddd url(../img/ico_not.png) 3px -40px no-repeat;
+    border: 1px solid #ddd;
+}
+
 .btn-add{
     float: left;
     margin: 0;
@@ -334,6 +373,10 @@ li:first-child{
     font-weight: 400;
     height: 30px;
     width: 30px;
+}
+
+.btn-add>a:hover{
+    background-color: #ddd;
 }
 
 .btn-add-icon {
