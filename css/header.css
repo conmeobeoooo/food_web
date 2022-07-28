@@ -16,6 +16,12 @@
 .topbar-current{
     width: 100%;
 }
+.topbar-link-img{
+    position: absolute;
+    top: 0px;
+    right: 1265px;
+    border-radius: 7px;
+}
 
 .foody-wrapper{
     height: 50px;
@@ -35,6 +41,10 @@
     font-weight: 300;
     color: #dddddd;
     padding-right: 12px;
+}
+
+.topbar-link:hover{
+    color: #fff;
 }
 
 li:first-child{

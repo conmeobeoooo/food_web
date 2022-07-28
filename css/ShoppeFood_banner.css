@@ -301,7 +301,7 @@
     padding-left: 10px;
 }
 
-.untility-item:before {
+.untility-item:last-child:before {
     content: "";
     width: 1px;
     height: 30px;
@@ -376,7 +376,7 @@
     padding: 2px 0;
 }
 
-.scrollbar-text{
+.scrollbar-text-active{
     background-color: #959595;
     color: #fff;
     font-size: 14px;
@@ -385,4 +385,222 @@
     padding: 3px 7px 1px;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.scrollbar-text{
+    font-size: 12.5px;
+    display: inline-block;
+    color: #6d6f71;
+    text-transform: uppercase;
+    padding: 3px 7px 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-restaurant-desc{
+    font-size: 13px;
+    color: #464646;
+    display: block;
+    padding-top: 8px;
+    line-height: 1.6em;
+}
+
+.menu-restaurant-detail{
+    width: 590px;
+    height: 550px;
+    padding: 6px 15px;
+    float: right;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.menu-restaurant-list{
+    position: relative;
+}
+
+.menu-restaurant-search{
+    position: sticky;
+    top: 70px;
+    background: #fff;
+    z-index: 2;
+    padding: 15px 0 10px;
+}
+
+.input-group{
+    margin: 0;
+    position: relative;
+    color: #46464c;
+}
+
+.search-items{
+    position: sticky;
+    top: 70px;
+    background: #fff;
+    z-index: 2;
+    padding: 15px 0 10px;
+}
+
+.input-group{
+    margin: 0;
+    position: relative;
+    color: #46464c;
+    align-items: stretch;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.search-items-icon {
+    position: absolute;
+    padding: 15px;
+    line-height: 10px;
+}
+
+.search-items-text {
+    font-size: 16px;
+    width: 100%;
+    padding: 0 40px;
+    border: 0;
+    border: 1px solid #ededed;
+    height: 40px;
+    padding-top: 4px;
+}
+
+.restaurant-content-item{
+    box-sizing: border-box;
+    direction: ltr;
+    height: auto;
+    position: relative;
+    width: 558px;
+    will-change: transform;
+    overflow: auto;
+    outline: none;
+}
+
+.restaurant-banner-item{
+    width: auto;
+    height: 1190px;
+    max-width: 558px;
+    max-height: 1190px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-group{
+    height: 56px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.title-menu{
+    text-transform: uppercase;
+    color: #6d6f71;
+    padding: 5px 0 0;
+    margin: 10px 2px 20px;
+}
+
+.item-restaurant-row{
+    height: 81px;
+    left: 0px;
+    position: absolute;
+    top: 56px;
+    width: 100%;
+    padding-top: 10px;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 10px;
+}
+
+.row{
+    height: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* margin-right: -10px; */
+    /* margin-left: -10px; */
+}
+
+.inline{
+    background: none!important;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    cursor: pointer;
+}
+
+.item-restaurant-name {
+    color: #464646;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 13px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.item-restaurant-info{
+    padding-left: 20px;
+    width: 379px;
+    height: 60px;
+}
+
+.product-price{
+    margin-right: 20px;
+}
+
+.old-price{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #6d6f71;
+}
+
+.price-top{
+    font-weight: 400;
+    position: relative;
+    top: -9px;
+    font-size: 10px;
+    right: 0;
+}
+
+.current-price{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0288d1;
+}
+
+.text-right{
+    text-align: right!important;
+}
+
+.btn-adding{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 20px;
+    width: 22px;
+    height: 22px;
+    background-color: #ee4d2d;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.item-restaurant-more {
+    margin-right: 0px;
+}
+
+.QRcode {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+    width: 315px;
+    background-image: url(https://shopeefood.vn/app/assets/img/qrcode.png?02f483efc36fa5fafaa4254671fa5492);
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
