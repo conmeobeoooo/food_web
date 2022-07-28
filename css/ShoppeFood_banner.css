@@ -1,6 +1,7 @@
 .sf-restaurant{
     background-color: #fff;
     padding-top: 30px;
+    height: 388px;
 }
 
 .clearfix:after {
@@ -22,6 +23,7 @@
     position: relative;
     float: left;
 }
+
 
 .restaurant-img{
     width: 100%;
@@ -307,4 +309,80 @@
     top: 14px;
     left: 0;
     background-color: #ebebeb;
+}
+
+.relative {
+    position: relative!important;
+}
+
+.menu-restaurant{
+    width: 845px;
+    margin-bottom: 20px;
+    min-height: 226px;
+    float: left;
+}
+
+.active{
+    font-weight: 700;
+    color: #cf2127;
+    cursor: default;
+    font-size: 15px;
+}
+
+.item{
+    /* color: #6d6f71; */
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    padding: 13px 26px;
+}
+
+.menu-restaurant-content{
+    position: relative;
+}
+
+.menu-restaurant-category{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #ebebeb;
+    padding: 15px 5px 15px 15px;
+    width: 235px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.list-category{
+    position: relative;
+}
+
+.scrollbar-container{
+    max-height: calc(100vh - 100px);
+    position: relative;
+}
+
+.ps{
+    overflow: hidden!important;
+    overflow-anchor: none;
+    touch-action: auto;
+}
+
+.scrollbar-item{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    padding: 2px 0;
+}
+
+.scrollbar-text{
+    background-color: #959595;
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 3px 7px 1px;
+    border-radius: 4px;
+    cursor: pointer;
 }
