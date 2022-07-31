@@ -19,6 +19,9 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0"
+        nonce="3itCA7js"></script>
     <div id="app">
         <div class="wrapper">
             <header class="header">
@@ -152,6 +155,11 @@
                             </div>
                         </div>
                     </div>
+                    <iframe
+                        src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2F127.0.0.1%3A5501%2Ffood_web%2FShoppeFood.html&width=450&layout=standard&action=like&size=small&share=true&height=35&appId"
+                        width="450" height="35" style="border:none;overflow:hidden;margin-top: 20px;" scrolling="no" frameborder="0"
+                        allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                 </div>
             </div>
             <div class="container relative clear-fix">
@@ -188,7 +196,8 @@
                                                     <div class="row">
                                                         <div class="col-auto item-row-img">
                                                             <button class="inline">
-                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/99a1c470-43e8-4810-8c55-dbb7a6a2ea9c.jpg" width="60px" height="60px" alt="">
+                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/99a1c470-43e8-4810-8c55-dbb7a6a2ea9c.jpg"
+                                                                    width="60px" height="60px" alt="">
                                                             </button>
                                                         </div>
                                                         <div class="col item-restaurant-info">
@@ -215,11 +224,12 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="top: 137px;"class="item-restaurant-row">
+                                                <div style="top: 137px;" class="item-restaurant-row">
                                                     <div class="row">
                                                         <div class="col-auto item-row-img">
                                                             <button class="inline">
-                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/965b3847-e54e-430c-8070-b744c30cc7c8.jpg" width="60px" height="60px" alt="">
+                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/965b3847-e54e-430c-8070-b744c30cc7c8.jpg"
+                                                                    width="60px" height="60px" alt="">
                                                             </button>
                                                         </div>
                                                         <div class="col item-restaurant-info">
@@ -246,11 +256,12 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="top: 218px;"class="item-restaurant-row">
+                                                <div style="top: 218px;" class="item-restaurant-row">
                                                     <div class="row">
                                                         <div class="col-auto item-row-img">
                                                             <button class="inline">
-                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/f786a305-98bc-4f9c-8249-a916ea8185b3.jpg" width="60px" height="60px" alt="">
+                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/f786a305-98bc-4f9c-8249-a916ea8185b3.jpg"
+                                                                    width="60px" height="60px" alt="">
                                                             </button>
                                                         </div>
                                                         <div class="col item-restaurant-info">
@@ -277,11 +288,12 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="top: 299px;"class="item-restaurant-row">
+                                                <div style="top: 299px;" class="item-restaurant-row">
                                                     <div class="row">
                                                         <div class="col-auto item-row-img">
                                                             <button class="inline">
-                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/108876b8-efde-420b-ad36-1ca35eb98eca.jpg" width="60px" height="60px" alt="">
+                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/108876b8-efde-420b-ad36-1ca35eb98eca.jpg"
+                                                                    width="60px" height="60px" alt="">
                                                             </button>
                                                         </div>
                                                         <div class="col item-restaurant-info">
@@ -308,11 +320,12 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div style="top: 380px;"class="item-restaurant-row">
+                                                <div style="top: 380px;" class="item-restaurant-row">
                                                     <div class="row">
                                                         <div class="col-auto item-row-img">
                                                             <button class="inline">
-                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/02a403ee-ec8b-4c20-a398-a5474f5aa848.jpg" width="60px" height="60px" alt="">
+                                                                <img src="https://images.foody.vn/res/g91/902408/s120x120/02a403ee-ec8b-4c20-a398-a5474f5aa848.jpg"
+                                                                    width="60px" height="60px" alt="">
                                                             </button>
                                                         </div>
                                                         <div class="col item-restaurant-info">
@@ -349,17 +362,20 @@
                 </div>
                 <div class="QRcode">
                     <img src="./img/download.png" height="200" width="200" style="height:200px; width:200px">
-                        <div>
-                            Quét mã để đặt món
-                            <br>
-                            trên app Shoppe
-                        </div>
+                    <div>
+                        Quét mã để đặt món
+                        <br>
+                        trên app Shoppe
+                    </div>
                     </img>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="container">
+        <div style="margin-top: 20px;border-top: 1px solid #333" class="fb-comments"
+            data-href="http://127.0.0.1:5501/food_web/ShoppeFood.html" data-width="1200" data-numposts="10"></div>
+    </div>
 </body>
 
 </html>

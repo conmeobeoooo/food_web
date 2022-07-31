@@ -132,7 +132,7 @@
     height: 210px;
 }
 .footer-container{
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -166,4 +166,11 @@
     font-size: 12.5px;
     clear: both;
     display: block;
+}
+
+.map-title {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
