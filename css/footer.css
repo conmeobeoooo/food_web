@@ -49,13 +49,13 @@
     overflow: hidden;
     clear: both;
     font-weight: 700;
-    line-height: 0px;
+    line-height: 20px;
 }
 
 .down-app-left{
     float: left;
     width: 240px;
-    margin-top: -8px;
+    margin-top: -1px;
 }
 
 .app-left-title{
