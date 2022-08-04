@@ -8,6 +8,7 @@
 
 *{
     box-sizing: initial;
+    user-select: none;
 }
 
 body{
@@ -64,3 +65,70 @@ body{
     justify-content: center;
     line-height: 20px;
 }
+
+.back-top{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 38px;
+    background: #ccc;
+    font-size: 12px;
+    opacity: .9;
+    z-index: 5000;
+}
+
+.back-top ul{
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+
+.btn-back-top{
+    display: block;
+    float: left;
+    width: 100%;
+    white-space: nowrap;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.back-top ul li a{
+    display: block;
+    padding: 5px 0;
+}
+
+.back-top-icon{
+    font-size: 22px;
+    color: #fff;
+}
+
+.fa-angle-up{
+    font-size: 18px;
+}
+
+.back-top ul li label{
+    position: absolute;
+    background: #ebebeb;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: none;
+}
+
+
+.back-top ul li:hover {
+    background: #d7d7d7;
+}
+
+.back-top ul li:hover label {
+    left: inherit;
+    right: 42px;
+    display: block;
+}
+

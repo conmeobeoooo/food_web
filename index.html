@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/delivery.css">
     <link rel="stylesheet" href="./css/discovery.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <script src="app.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -27,7 +28,7 @@
         <div class="container">
             <div class="container-topbar">
                 <ul class="topbar">
-                    <li class="topbar-items">
+                    <li class="topbar-items topbar-items-active">
                         <a style="color: #333; " class="topbar-link topbar-current" href="#" rel="home">Khám Phá</a>
                     </li>
                     <li class="topbar-items">
@@ -321,7 +322,7 @@
                         <span class="avatar-title">Giao tận nơi</span>
                     </div>
                     <div class="nav-box">
-                        <ul class="nav-box-list" style="white-space: nowrap;">
+                        <ul class="nav-box-list" style="white-space: nowrap;" >
                             <li class="nav-box__item">
                                 <span class="nav-box__text nav-box-text__red"
                                     onclick="changeProductList('today', this)">Deal hôm nay</span>
@@ -354,10 +355,51 @@
                                     miệng</span>
                                 </a>
                             </li>
-                            <li class="nav-box__item">
-                                <span class="nav-box__text">Xem thêm</span>
-                                <span class="underline"></span>
-                                <i class="fa-solid fa-chevron-down btn-more-icon"></i>
+                            <li class="nav-box__item nav-box-more">
+                                <span class="nav-box__text" onClick="hien()">Xem thêm</span>
+                                <i class="fa fa-angle-down btn-more-icon"></i>
+                            <ul class="dropdown-list">
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Homemade</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Vỉa hè</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Pizza/Burger</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Món gà</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Món lẩu</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Sushi</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Mì phở</sp>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <span href="" class="dropdown-item">Cơm hộp</span>
+                                    </a>
+                                </li>
+                            </ul>
                             </li>
                         </ul>
                     </div>
@@ -2971,13 +3013,13 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="footer-items-box">
+                <div class="footer-items-box">
                 <p class="footer-title">Địa chỉ của công ty</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29795.76209813707!2d105.77840507910157!3d21.013861600000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab624cd4fe1d%3A0x7adea9d51b6c8840!2sFoodyhanoi!5e0!3m2!1svi!2s!4v1659058302989!5m2!1svi!2s"
                     width="200" height="150" style="border:0; float:left; margin-top: 4px;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div> -->
+                </div>
             </div>
         </div>
         <div class="footer-infomation">
@@ -2997,6 +3039,28 @@
             </span>
         </div>
     </div>
+    <div class="back-top">
+        <ul>
+            <li class="btn-back-top">
+                <a href="">
+                    <i class="fa fa-angle-up back-top-icon"></i>
+                    <label for="">Về đầu trang</label>
+                </a>
+            </li>
+            <li class="btn-back-top">
+                <a href="https://apps.apple.com/app/id570435154">
+                    <i class="fa-brands fa-apple back-top-icon"></i>
+                    <label for="">Tải ứng dụng</label>
+                </a>
+            </li>
+            <li class="btn-back-top">
+                <a href="https://play.google.com/store/apps/details?id=com.foody.vn.activity">
+                    <i class="fa-brands fa-android back-top-icon"></i>
+                    <label for="">Tải ứng dụng</label>
+                </a>
+            </li>
+        </ul>
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(document).ready(function () {
@@ -3006,6 +3070,18 @@
                 }
                 else {
                     $('.header-toolbar').removeClass('fixed');
+                }
+            });
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                if ($(this).scrollTop()){
+                    $('.back-top').fadeIn();
+                }else{
+                    $('.back-top').fadeOut();
                 }
             });
         });

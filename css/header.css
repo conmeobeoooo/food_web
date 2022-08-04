@@ -47,10 +47,13 @@
     color: #fff;
 }
 
-li:first-child{
+/* li:first-child{
+    background-color: #fff;
+} */
+
+.topbar-items-active{
     background-color: #fff;
 }
-
 
 .header-toolbar {
     padding-bottom: 10px;
@@ -75,6 +78,7 @@ li:first-child{
 }
 
 .header-logo {
+    cursor: pointer;
     float: left;
     position: relative;
     margin: 16px 20px 0 0;

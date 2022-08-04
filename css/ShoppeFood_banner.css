@@ -480,7 +480,7 @@
 
 .restaurant-banner-item{
     width: auto;
-    height: 1190px;
+    height: 650px;
     max-width: 558px;
     max-height: 1190px;
     overflow: hidden;
@@ -603,4 +603,121 @@
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+
+.footer{
+    clear: both;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.container-inner{
+    /* border-top: 1px solid #ebebeb; */
+    padding-top: 32px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    overflow: hidden;
+    clear: both;
+}
+
+.block-footer{
+    width: 241px;
+    float: left;
+    color: #959595;
+}
+
+.title-block{
+    font-weight: 700;
+    color: #252525;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.menu-footer{
+    line-height: 25px;
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu-item{
+    font-size: 15px;
+    cursor: pointer;
+    color: #959595;
+}
+
+.menu-item a{
+    color: #08f;
+}
+
+.footer-app{
+    width: 122px;
+    height: 40px;
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.app-store{
+    background-image: url(https://shopeefood.vn/app/assets/img/AppStore-vn.png?1afe809ef1884945ef4a05dacec7679e);
+    background-size: cover;
+}
+
+.app-Android{
+    background-image: url(https://shopeefood.vn/app/assets/img/PlayStore-vn.png?a5bc23fd384a415654c9115efebb67db);
+    background-size: cover;
+}
+
+.app-Huawei{
+    background-image: url(https://shopeefood.vn/app/assets/img/Huawei-gallery-vn.png?a17f5e9f3500255a52ec23de20dc115a);
+    background-size: cover;
+}
+
+.block-text{
+    font-size: 14px;
+    margin-bottom: 4px;
+    margin-top: 0;
+    color: #4f4f4f;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.logo-footer{
+    margin-top: 14px;
+    margin-bottom: 17px;
+}
+
+.social-icon{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+.social-icon li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.icons {
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 30px;
+    display: inline-block;
+    background-color: #959595;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.block-footer-last{
+    width: 241px;
+    float: right;
+    color: #959595;
+}
+
+.font12{
+    font-size: 12px;
 }
