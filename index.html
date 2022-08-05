@@ -123,6 +123,7 @@
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
                             </li> -->
+                            <!-- Cart -->
                         <div class="header__cart">
                             <div class="header__cart-wrap">
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
@@ -2866,6 +2867,7 @@
             </ul>
         </div>
     </div>
+    <!-- footer -->
     <div class="footer-down-app-wrap">
         <div class="footer-down-app">
             <div class="footer-intro-app">Tìm địa điểm trên đường đi? Tải app Foody!</div>
@@ -3042,18 +3044,16 @@
     <div class="back-top">
         <ul>
             <li class="btn-back-top">
-                <a href="">
                     <i class="fa fa-angle-up back-top-icon"></i>
                     <label for="">Về đầu trang</label>
-                </a>
             </li>
-            <li class="btn-back-top">
+            <li class="btn-down-app">
                 <a href="https://apps.apple.com/app/id570435154">
                     <i class="fa-brands fa-apple back-top-icon"></i>
                     <label for="">Tải ứng dụng</label>
                 </a>
             </li>
-            <li class="btn-back-top">
+            <li class="btn-down-app">
                 <a href="https://play.google.com/store/apps/details?id=com.foody.vn.activity">
                     <i class="fa-brands fa-android back-top-icon"></i>
                     <label for="">Tải ứng dụng</label>
@@ -3062,6 +3062,7 @@
         </ul>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- fixed top -->
     <script>
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -3074,7 +3075,7 @@
             });
         });
     </script>
-    
+    <!-- back-top -->
     <script>
         $(document).ready(function(){
             $(window).scroll(function(){
@@ -3083,6 +3084,9 @@
                 }else{
                     $('.back-top').fadeOut();
                 }
+            });
+            $('.back-top').click(function(){
+                $('html, body').animate({scrollTop: 0}, 500);
             });
         });
     </script>
