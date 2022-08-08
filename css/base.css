@@ -11,6 +11,7 @@
     user-select: none;
 }
 
+
 body{
     font-family: 'Arimo', sans-serif;
     font-size: 62%;
@@ -144,3 +145,93 @@ body{
     position: relative;
     cursor: pointer;
 }
+
+
+/* responsive */
+
+@media screen and (max-width: 1300px){
+    html{
+        width: 1200px!important;
+    }
+    .discovery-list-item {
+        max-width: 135px!important;
+        position: absolute!important;
+        margin-left: 188px!important;
+    }
+    .home-banner{
+        width: 1200px!important;
+    }
+    .banner-item {
+        margin-left: 55px!important;
+    }
+} 
+
+@media screen and (max-width: 900px){
+    html{
+        width: 1200px!important;
+    }
+    .discovery-list-item {
+        max-width: 135px!important;
+        position: absolute!important;
+        margin-left: 188px!important;
+    }
+    .home-banner{
+        width: 1200px!important;
+    }
+    .banner-item {
+        margin-left: 55px!important;
+    }
+} 
+
+ @media screen and (max-width: 850px){
+    html{
+        width: 1200px!important;
+    }
+    .discovery-list-item {
+        max-width: 135px!important;
+        position: absolute!important;
+        margin-left: 188px!important;
+    }
+    .home-banner{
+        width: 1200px!important;
+    }
+    .banner-item {
+        margin-left: 55px!important;
+    }
+}
+
+@media screen and (max-width: 420px){
+    html{
+        width: 1200px!important;
+    }
+    .discovery-list-item {
+        max-width: 135px!important;
+        position: absolute!important;
+        margin-left: 188px!important;
+    }
+    .home-banner{
+        width: 1200px!important;
+    }
+    .banner-item {
+        margin-left: 55px!important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    html{
+        width: 1200px!important;
+    }
+    .discovery-list-item {
+        max-width: 135px!important;
+        position: absolute!important;
+        margin-left: 188px!important;
+    }
+    .home-banner{
+        width: 1200px!important;
+    }
+    .banner-item {
+        margin-left: 55px!important;
+    }
+
+}
+
