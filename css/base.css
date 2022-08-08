@@ -149,89 +149,89 @@ body{
 
 /* responsive */
 
-@media screen and (max-width: 1300px){
-    html{
-        width: 1200px!important;
-    }
-    .discovery-list-item {
-        max-width: 135px!important;
-        position: absolute!important;
-        margin-left: 188px!important;
-    }
-    .home-banner{
-        width: 1200px!important;
-    }
-    .banner-item {
-        margin-left: 55px!important;
-    }
-} 
 
-@media screen and (max-width: 900px){
-    html{
-        width: 1200px!important;
-    }
-    .discovery-list-item {
-        max-width: 135px!important;
-        position: absolute!important;
-        margin-left: 188px!important;
-    }
-    .home-banner{
-        width: 1200px!important;
-    }
-    .banner-item {
-        margin-left: 55px!important;
-    }
-} 
-
- @media screen and (max-width: 850px){
-    html{
-        width: 1200px!important;
-    }
-    .discovery-list-item {
-        max-width: 135px!important;
-        position: absolute!important;
-        margin-left: 188px!important;
-    }
-    .home-banner{
-        width: 1200px!important;
-    }
-    .banner-item {
-        margin-left: 55px!important;
-    }
-}
 
 @media screen and (max-width: 420px){
-    html{
-        width: 1200px!important;
+    .header-logo img{
+        width: 55px!important;
+        height: 20px!important;
+        margin-top: 2px;
     }
-    .discovery-list-item {
-        max-width: 135px!important;
-        position: absolute!important;
-        margin-left: 188px!important;
-    }
-    .home-banner{
-        width: 1200px!important;
-    }
-    .banner-item {
-        margin-left: 55px!important;
-    }
-}
-
-@media screen and (max-width: 400px){
-    html{
-        width: 1200px!important;
-    }
-    .discovery-list-item {
-        max-width: 135px!important;
-        position: absolute!important;
-        margin-left: 188px!important;
-    }
-    .home-banner{
-        width: 1200px!important;
-    }
-    .banner-item {
-        margin-left: 55px!important;
+    .btn-select__city{
+        display: none !important;
     }
 
+    .btn-select__category{
+        display: none !important;
+    }
+
+    .search-bar__top{
+        width: 200px!important;
+    }
+
+    .search-text{
+        display: none !important;
+    }
+
+    .menu-header{
+        display: none !important;
+    }
+
+    .header-apps{
+        display: none !important;
+    }
+
+    .menu-login__control{
+        float: left !important;
+        width: 30px!important;
+    }
+
+    .header__cart{
+        display: block!important;
+    }
+
+    .account-manage{
+        display: none !important;
+    }
+
+    .notificationCrl{
+        display: none!important;
+    }
+
+    .btn-add{
+        display: none!important;
+    }
+
+    .banner-item{
+        margin-left: 0!important;
+    }
+
+    .home-banner{
+        height: 300px!important;
+    }
+    .slick-track{
+        width: 375px!important;
+        transform: translate3d(0px , 0px, 0px) !important;
+    }
+
+    .banner-item-img{
+        width: 100%!important;
+        margin-right: 200px!important;
+    }
+
+    .banner-item-img{
+        height: 215px!important;
+    }
+
+    .banner-caption{
+        width: 100%!important;
+    }
+    .banner-caption-name{
+        font-size: 10px!important;
+    }
+
+    .banner-caption__desc{
+        font-size: 10px!important;
+    }
 }
 
