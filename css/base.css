@@ -152,10 +152,37 @@ body{
 
 
 @media screen and (max-width: 420px){
+
+    *{
+        font-size: 10px!important;
+    }
+
+    .container{
+        width: 100%!important;
+        padding: 0!important;
+    }
     .header-logo img{
         width: 55px!important;
         height: 20px!important;
         margin-top: 2px;
+        margin-left: 14px!important;
+    }
+
+    .search-filter{
+        display: none !important;
+    }
+
+    .search-bar__top {
+        height: 25px;
+        margin-top: 13px !important;
+    }
+
+    .search-button {
+        height: 23px!important;
+    }
+
+    .search-icon{
+        padding-top: 2px!important;
     }
     .btn-select__city{
         display: none !important;
@@ -174,7 +201,16 @@ body{
     }
 
     .menu-header{
-        display: none !important;
+        /* display: none !important; */
+        border: none!important;
+        width: auto!important;
+        float: right!important;
+        margin-right: 20px!important;
+        margin-top: 14.5px!important;
+    }
+
+    .fa-bars{
+        font-size: 16px!important;
     }
 
     .header-apps{
@@ -187,6 +223,7 @@ body{
     }
 
     .header__cart{
+        margin-top: 12.5px !important;
         display: block!important;
     }
 
@@ -207,7 +244,7 @@ body{
     }
 
     .home-banner{
-        height: 300px!important;
+        height: 280px!important;
     }
     .slick-track{
         width: 375px!important;
@@ -220,7 +257,7 @@ body{
     }
 
     .banner-item-img{
-        height: 215px!important;
+        height: 205px!important;
     }
 
     .banner-caption{
@@ -232,6 +269,148 @@ body{
 
     .banner-caption__desc{
         font-size: 10px!important;
+    }
+
+    .topbar{
+        display: none!important;
+        flex-direction: column!important;
+        text-align: center!important;
+    }
+
+    .header{
+        height: auto!important;
+    }
+
+    .box-delivery{
+        border: none!important;
+    }
+
+    .avatar-img{
+        width: 20px!important;
+        height: 20px!important;
+    }
+
+    .delivery-header{
+        height: 45px!important;
+        line-height: 48px!important;
+    }
+
+    .avatar-box{
+        width: 20px !important;
+    }
+
+    .avatar{
+        margin-right: 0px!important;
+        margin-top: 13px!important;
+    }
+
+    .avatar-title{
+        display: none !important;
+    }
+
+    .nav-box__item{
+        padding: 0 5px!important;
+        height: 40px!important;
+        text-align: center !important;
+    }
+
+    .nav-box__text{
+        padding-bottom: 2px!important;
+    }
+
+    .nav-box__item-four{
+        display: none!important;
+    }
+
+    .nav-box__item-five{
+        display: none!important;
+    }
+
+    .menu-items{
+        width: 375px!important;
+        padding-left: 0!important;
+    }
+
+    .item{
+        width: 181px!important;
+        height: 280px!important;
+    }
+
+    .li-page{
+        display: none!important;;
+    }
+
+    .toolbar-left{
+        display: none!important;
+    }
+
+    .discovery-banner-header {
+        float: right!important;
+        width: 375px!important;
+    }
+
+    .discovery-select{
+        display: none!important;
+    }
+
+    .discovery-banner-list{
+        height: 30px!important;
+    }
+
+    .discovery-banner-items{
+        width: auto!important;
+        line-height: 2.5px!important;
+    }
+
+    .content-container{
+        width: 963px!important;
+        margin-top: 0px!important;
+    }
+
+    .content-item{
+        float: right!important;
+        width: 176px!important;
+    }
+
+    .items-review{
+        display: flex!important;
+    }
+    .review-img{
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .btn-load-more{
+        width: 100%!important;
+    }
+
+    .load-more{
+        display: none !important;
+    }
+
+    .footer-down-app-wrap{
+        display: none !important;
+    }
+
+    .footer-content{
+        display: none !important;
+        height: 0px !important;
+    }
+
+
+    .footer-container{
+        height: 0px !important;
+        display: none !important;
+    }
+
+    .footer-infomation{
+        background-color: #fff !important;
+    }
+
+    .header-cart-icon{
+        margin-top: 6px !important;
+        margin-left: 18px !important;
+        font-size: 15px !important;
     }
 }
 

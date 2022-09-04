@@ -119,12 +119,15 @@
                                 <i class="fa-solid fa-plus btn-add-icon"></i>
                             </a>
                         </div>
+
+                        <!-- Gio hàng -->
+
                         <!-- <div class="header-cart">
                             <li class="header-cart-content">
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
                             </li> -->
-                            <!-- Cart -->
+                        <!-- Cart -->
                         <div class="header__cart">
                             <div class="header__cart-wrap">
                                 <i class="fa-solid fa-cart-shopping header-cart-icon"></i>
@@ -137,6 +140,69 @@
                                     </span>
                                     <h4 class="header__cart-heading">Sảm phẩm đã thêm</h4>
                                     <ul class="header__cart-list-item">
+                                        <li class="header__cart-item">
+                                            <img src="https://images.foody.vn/res/g75/743406/prof/s750x400/foody-upload-api-foody-mobile-kai-tea-jpg-180906103813.jpg"
+                                                alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Trà Sữa Kai Tea - Doãn Kế Thiện
+                                                    </h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">45.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Coffee/Dessert
+                                                    </span>
+                                                    <div class="header__cart-item-remove">Xóa</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="https://images.foody.vn/res/g75/743406/prof/s750x400/foody-upload-api-foody-mobile-kai-tea-jpg-180906103813.jpg"
+                                                alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Trà Sữa Kai Tea - Doãn Kế Thiện
+                                                    </h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">45.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Coffee/Dessert
+                                                    </span>
+                                                    <div class="header__cart-item-remove">Xóa</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header__cart-item">
+                                            <img src="https://images.foody.vn/res/g75/743406/prof/s750x400/foody-upload-api-foody-mobile-kai-tea-jpg-180906103813.jpg"
+                                                alt="" class="header__cart-img">
+                                            <div class="header__cart-item-info">
+                                                <div class="header__cart-item-head">
+                                                    <h5 class="header__cart-item-name">Trà Sữa Kai Tea - Doãn Kế Thiện
+                                                    </h5>
+                                                    <div class="header__cart-item-price-wrap">
+                                                        <span class="header__cart-item-price">45.000</span>
+                                                        <span class="header__cart-item-multiply">x</span>
+                                                        <span class="header__cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header__cart-item-body">
+                                                    <span class="header__cart-item-description">
+                                                        Coffee/Dessert
+                                                    </span>
+                                                    <div class="header__cart-item-remove">Xóa</div>
+                                                </div>
+                                            </div>
+                                        </li>
                                         <li class="header__cart-item">
                                             <img src="https://images.foody.vn/res/g75/743406/prof/s750x400/foody-upload-api-foody-mobile-kai-tea-jpg-180906103813.jpg"
                                                 alt="" class="header__cart-img">
@@ -282,8 +348,8 @@
                                     </ul>
                                     <div class="header__cart-view-cart btn btn--primary">
                                         <a target="_blank" href="http://127.0.0.1:5501/food_web/cart.html">
-                                        <span class="header__cart-view-text">Xem giỏ hàng</span>
-                                    </a>
+                                            <span class="header__cart-view-text">Xem giỏ hàng</span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -294,6 +360,7 @@
         </div>
         </div>
     </header>
+    <!--phan banner -->
     <div class="wrapper">
         <div class="home-banner">
             <div class="home-banner-container slick-slider">
@@ -315,6 +382,7 @@
             </div>
         </div>
     </div>
+    <!-- phan delivery -->
     <div class="wrapper">
         <div class="container">
             <div class="box-delivery">
@@ -326,7 +394,7 @@
                         <span class="avatar-title">Giao tận nơi</span>
                     </div>
                     <div class="nav-box">
-                        <ul class="nav-box-list" style="white-space: nowrap;" >
+                        <ul class="nav-box-list" style="white-space: nowrap;">
                             <li class="nav-box__item">
                                 <span class="nav-box__text nav-box-text__red"
                                     onclick="changeProductList('today', this)">Deal hôm nay</span>
@@ -349,96 +417,72 @@
                                     chay</span>
                                 <span class="underline"></span>
                             </li>
-                            <li class="nav-box__item">
+                            <li class="nav-box__item nav-box__item-four">
                                 <span class="nav-box__text" onclick="changeProductList('cream-cake', this)">Bánh
                                     kem</span>
                                 <span class="underline"></span>
                             </li>
-                            <li class="nav-box__item">
+                            <li class="nav-box__item nav-box__item-five">
                                 <span class="nav-box__text" onclick="changeProductList('dessert', this)">Tráng
                                     miệng</span>
                                 </a>
                             </li>
+                            <!-- phan xem them -->
                             <li class="nav-box__item nav-box-more">
                                 <span class="nav-box__text" onClick="hien()">Xem thêm</span>
                                 <i class="fa fa-angle-down btn-more-icon"></i>
-                            <ul class="dropdown-list">
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Homemade</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Vỉa hè</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Pizza/Burger</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Món gà</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Món lẩu</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Sushi</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Mì phở</sp>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span href="" class="dropdown-item">Cơm hộp</span>
-                                    </a>
-                                </li>
-                            </ul>
+                                <ul class="dropdown-list">
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Homemade</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Vỉa hè</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Pizza/Burger</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Món gà</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Món lẩu</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Sushi</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Mì phở</sp>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span href="" class="dropdown-item">Cơm hộp</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
+                <!-- phan san pham delivery -->
                 <div id="today" class="menu-items">
                     <ul class="list-items">
-                        <li class="item">
-                            <div class="item-brand">
-                                <a target="_blank" href="http://127.0.0.1:5501/food_web/SFproduct.html"
-                                    class="avatar-item">
-                                    <img class="item-img"
-                                        src="https://images.foody.vn/res/g75/743406/prof/s750x400/foody-upload-api-foody-mobile-kai-tea-jpg-180906103813.jpg"
-                                        alt="">
-                                </a>
-                                <a target="_blank" href="http://127.0.0.1:5501/food_web/SFproduct.html">
-                                    <div style="display: flex; justify-content: space-between"
-                                        class="item-title limit-text">
-                                        <span
-                                            title="Đây là một trong những địa điểm được đánh giá tốt nhất trên hệ thống ShopeeFood"
-                                            class="item-quality"></span>
-                                        <span class="title-text limit-text item-quality-text">Trà Sữa Kai Tea - Doãn Kế
-                                            Thiện</span>
-                                    </div>
-                                    <div class="item-address limit-text">
-                                        6B Ngõ 105 Ngách 56 Doãn Kế Thiện, Cầu Giấy, Hà Nội
-                                    </div>
-                                </a>
-                            </div>
-                            <a target="_blank" href="http://127.0.0.1:5501/food_web/SFproduct.html">
-                                <div class="info-item">
-                                    <i class="fa fa-tag ng-hide info-item-icon"></i>
-                                    <label style="font-size: 13px" for="">Coffee/Dessert</label>
-                                </div>
-                            </a>
-                        </li>
+                        <!-- pham tung san pham cau delivery -->
+
+                        <!-- pham tung san pham cau delivery -->
                         <li class="item">
                             <div class="item-brand">
                                 <a target="_blank" href="http://127.0.0.1:5501/food_web/ShoppeFood.html"
@@ -463,7 +507,7 @@
                                 </div>
                             </a>
                         </li>
-
+                        <!-- pham tung san pham cau delivery -->
                         <li class="item">
                             <div class="item-brand">
                                 <a href="" class="avatar-item">
@@ -638,12 +682,34 @@
                                 <label style="font-size: 13px" for="">Boozer</label>
                             </div>
                         </li>
+                        <li class="item">
+                            <div class="item-brand">
+                                <a href="" class="avatar-item">
+                                    <img class="item-img"
+                                        src="https://images.foody.vn/res/g25/241564/prof/s750x400/foody-mobile-20-jpg-309-636004809264384661.jpg"
+                                        alt="">
+                                </a>
+                                <a href="">
+                                    <div class="item-title limit-text">
+                                        <span class="title-text limit-text">Trí Đức - Cháo Niêu & Phở Bún Miến</span>
+                                    </div>
+                                    <div class="item-address limit-text">
+                                        38B Nguyễn Khang, P. Yên Hòa, Cầu Giấy, Hà Nội
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="info-item">
+                                <i class="fa fa-tag ng-hide info-item-icon"></i>
+                                <label style="font-size: 13px" for="">Boozer</label>
+                            </div>
+                        </li>
 
                     </ul>
                     <a href="" class="li-page">
                         <i class="li-page-icon fa fa-solid fa-chevron-right"></i>
                     </a>
                 </div>
+                <!-- danh muc all -->
                 <div id="all" class="menu-items">
                     <ul class="list-items">
                         <li class="item">
@@ -2039,6 +2105,7 @@
         <div class="home-page">
             <div class="container">
                 <div class="box-group discovery">
+                    <!-- phan kham pha ben trai -->
                     <div class="nav-left foody-toolbar">
                         <div class="toolbar-left">
                             <div class="header-toolbar-left">
@@ -2105,6 +2172,9 @@
                             </ul>
                         </div>
                     </div>
+
+                    <!-- phan header discovery -->
+
                     <div class="discovery-banner discovery-list-item">
                         <div class="RequestDiv">
                             <div class="discovery-banner-home">
@@ -2215,6 +2285,9 @@
                                     </div>
                                 </div>
                                 <div class="content-container clear-box">
+
+                                    <!-- phan san pham cua discovery -->
+
                                     <div class="content-item">
                                         <div class="content-avatar">
                                             <a href="">
@@ -2268,6 +2341,9 @@
                                             </a>
                                         </div>
                                     </div>
+
+                                    <!-- phan san pham cua discovery -->
+
                                     <div class="content-item">
                                         <div class="content-avatar">
                                             <a href="">
@@ -2861,6 +2937,7 @@
             </div>
         </div>
     </div>
+    <!-- phan top thanh vien -->
     <div class="top-friend-container">
         <div class="top-friend-user">
             <ul class="friend-user">
@@ -2870,7 +2947,9 @@
             </ul>
         </div>
     </div>
+
     <!-- footer -->
+
     <div class="footer-down-app-wrap">
         <div class="footer-down-app">
             <div class="footer-intro-app">Tìm địa điểm trên đường đi? Tải app Foody!</div>
@@ -2925,6 +3004,7 @@
         </div>
     </div>
     <div class="footer">
+        <!-- phan footer trên -->
         <div class="footer-container">
             <div class="footer-content">
                 <div class="footer-items-box">
@@ -3019,14 +3099,17 @@
                     </ul>
                 </div>
                 <div class="footer-items-box">
-                <p class="footer-title">Địa chỉ của công ty</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29795.76209813707!2d105.77840507910157!3d21.013861600000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab624cd4fe1d%3A0x7adea9d51b6c8840!2sFoodyhanoi!5e0!3m2!1svi!2s!4v1659058302989!5m2!1svi!2s"
-                    width="200" height="150" style="border:0; float:left; margin-top: 4px;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="footer-title">Địa chỉ của công ty</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29795.76209813707!2d105.77840507910157!3d21.013861600000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab624cd4fe1d%3A0x7adea9d51b6c8840!2sFoodyhanoi!5e0!3m2!1svi!2s!4v1659058302989!5m2!1svi!2s"
+                        width="200" height="150" style="border:0; float:left; margin-top: 4px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
+
+        <!-- phần footer dưới -->
+
         <div class="footer-infomation">
             <span class="footer-infomation-text">
                 Công Ty Cổ Phần Foody, Lầu G, Tòa nhà Jabes 1, 244 đường Cống Quỳnh, phường Phạm Ngũ Lão, Quận 1, TP.HCM
@@ -3047,8 +3130,8 @@
     <div class="back-top">
         <ul>
             <li class="btn-back-top">
-                    <i class="fa fa-angle-up back-top-icon"></i>
-                    <label for="">Về đầu trang</label>
+                <i class="fa fa-angle-up back-top-icon"></i>
+                <label for="">Về đầu trang</label>
             </li>
             <li class="btn-down-app">
                 <a href="https://apps.apple.com/app/id570435154">
@@ -3080,16 +3163,16 @@
     </script>
     <!-- back-top -->
     <script>
-        $(document).ready(function(){
-            $(window).scroll(function(){
-                if ($(this).scrollTop()){
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
                     $('.back-top').fadeIn();
-                }else{
+                } else {
                     $('.back-top').fadeOut();
                 }
             });
-            $('.back-top').click(function(){
-                $('html, body').animate({scrollTop: 0}, 500);
+            $('.back-top').click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 500);
             });
         });
     </script>
